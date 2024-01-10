@@ -1,0 +1,117 @@
+body{
+    font: 1000;font-style: normal;font-family: 'Times New Roman', Times, serif;
+}
+
+
+.intro{
+    font-size: x-large;
+    font-style: Bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(246, 236, 251);
+    color: rgb(99, 20, 172);
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-top: 20px;
+    border-bottom: 20px;
+}
+i {
+    color: #ae00ff; 
+    margin-right: 8px; 
+    cursor: pointer;
+}
+
+#slogan{
+    font-style: italic;
+}
+img{
+    float: right;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box ;
+    
+    
+}
+.in{
+    display: inline;
+}
+#about{
+    background-color:rgb(99, 20, 172) ;
+}
+#dor{
+    color:rgb(246, 236, 251) ;
+    text-decoration: wavy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    text-justify: distribute-all-lines;
+    line-height: 40px;
+   
+    
+}
+
+.head{
+    color:rgb(246, 236, 251) ;
+    font-size: larger;
+}
+
+.story{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    border:50%;
+    border-color:rgb(246, 236, 251) ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px ;
+    background-color: blueviolet;
+    float:left;
+    color: aliceblue;
+    height: 45px;
+    float: right;
+    
+
+}
+
+#ref{
+    background-image: url('Screenshot 2023-12-21 at 12.18.45 PM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 70%;
+}
+.objectives-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start; 
+    flex-wrap: wrap; 
+}
+
+.objective {
+    flex-basis: 30%; 
+    margin: 10px; 
+}
+
+p{
+    color: black;
+    height: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(10, 10, 10);
+   
+}
+
+#mail{
+    width: 400px;
+    height: 50px;
+    
+}
+#message{
+    height: 100px;
+    width: 600px;
+
+}
